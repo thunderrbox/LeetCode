@@ -1,10 +1,10 @@
 # 💻 LeetCode – DSA Solutions Journal
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Problems%20Solved-66-blue?style=for-the-badge&logo=leetcode&logoColor=white">
   <img src="https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
   <img src="https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
   <img src="https://img.shields.io/badge/Language-SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/Platform-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white">
   <img src="https://img.shields.io/badge/Pipeline-Active-brightgreen?style=for-the-badge">
 </p>
 
