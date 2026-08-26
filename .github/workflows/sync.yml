@@ -4,6 +4,13 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+    inputs:
+      sync_all:
+        description: 'Force full sync of all solutions'
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   sync:
@@ -12,7 +19,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -24,4 +31,5 @@ jobs:
           SYNC_URL: ${{ secrets.SYNC_URL }}
           SYNC_SECRET: ${{ secrets.SYNC_SECRET }}
           GITHUB_SHA: ${{ github.sha }}
+          SYNC_ALL: ${{ inputs.sync_all }}
         run: python .github/scripts/sync.py
