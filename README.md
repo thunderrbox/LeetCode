@@ -12,7 +12,7 @@
 
 This repository houses my personal solutions, complexity analysis, and explanations for various coding challenges solved across LeetCode. It acts as a continuous journal of my Data Structures and Algorithms (DSA) training.
 
-🌐 **Live Solutions Portfolio**: **[https://ubiquitous-dango-feef0b.netlify.app](https://ubiquitous-dango-feef0b.netlify.app)**
+🌐 **Live Solutions Portfolio**: **[https://dsa-vault-alpha.vercel.app](https://dsa-vault-alpha.vercel.app)**
 
 ---
 
@@ -53,8 +53,8 @@ To ensure a folder is parsed and published correctly to the website, format your
 ## 🛠️ GitHub Actions Workflow Configuration
 
 To check or update the sync URL, view the workflow file:
-`.github/workflows/sync-website.yml`
+`.github/workflows/sync.yml`
 
 Ensure the `SYNC_URL` points to:
-`https://ubiquitous-dango-feef0b.netlify.app/api/sync/github`
+`https://dsa-vault-alpha.vercel.app/api/sync/github`
 And that `SYNC_SECRET` is added as an Actions Repository Secret.
